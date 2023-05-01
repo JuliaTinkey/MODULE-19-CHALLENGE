@@ -2,21 +2,15 @@
 CryptoClustering / Unsupervised Learning
 
 Instructions
-Rename the Crypto_Clustering_starter_code.ipynb file as Crypto_Clustering.ipynb.
 
 Load the crypto_market_data.csv into a DataFrame.
 
-Get the summary statistics and plot the data to see what the data looks like before proceeding.
 
 Prepare the Data
 Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
-
 Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
-
 The first five rows of the scaled DataFrame should appear as follows:
-
 The first five rows of the scaled DataFrame
-
 Find the Best Value for k Using the Original Scaled DataFrame
 Use the elbow method to find the best value for k using the following steps:
 
@@ -41,12 +35,9 @@ Optimize Clusters with Principal Component Analysis
 Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
 
 Retrieve the explained variance to determine how much information can be attributed to each principal component and then answer the following question in your notebook:
-
 What is the total explained variance of the three principal components?
 Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
-
 The first five rows of the PCA DataFrame should appear as follows:
-
 The first five rows of the PCA DataFrame
 
 Find the Best Value for k Using the PCA Data
